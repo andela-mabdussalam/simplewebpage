@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <style>
+        /* See https://github.com/nprapps/pym.js/issues/83 */
+        p:first-child { margin-top: 0; }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+    <iframe src="http://localhost:3000/embed" frameborder="0" scrolling="yes" height="600px" width="100%"></iframe>
+    <script>var pymChild = new pym.Child();</script>
+</body>
+</html>
+
+
+    <script>var pymParent = new pym.Parent('example', 'http://blog.apps.npr.org/pym.js/examples/graphic/child.html')</script>
